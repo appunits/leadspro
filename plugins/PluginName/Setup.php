@@ -28,7 +28,8 @@ class Setup
                     [
                         'title' => 'Leads',
                         'url'   => 'admin/leads',
-                        'icon'  => 'fas fa-users',
+                        'icon'  => 'fas fa-headset',
+                        'permissions' => '*',
                         'items' => [
                             [
                                 'title' => 'List',
@@ -45,7 +46,8 @@ class Setup
                     [
                         'title' => 'Customers',
                         'url'   => 'admin/customers',
-                        'icon'  => 'fas fa-users',
+                        'icon'  => 'fas fa-receipt',
+                        'permissions' => '*',
                         'items' => [
                             [
                                 'title' => 'List',
